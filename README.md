@@ -9,7 +9,7 @@ def get_random_quote():
         quotes = response.json()
         quote = random.choice(quotes)
         print(f'💡 "{quote["text"]}"\n— {quote["author"] or "Unknown"}')
-    except requests.RequestException:
+    except requests.RequestExceptionn:
         print("❌ Could not fetch quotes. Please check your internet connection.")
 
 if __name__ == "__main__":
