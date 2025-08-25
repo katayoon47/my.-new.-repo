@@ -1,7 +1,7 @@
 import requests
 import random
 
-def get_randm_quote():
+def gt_randm_quote():
     url = "https://type.fit/api/quotes"
     try:
         response = requests.get(url)
