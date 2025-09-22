@@ -12,6 +12,6 @@ def get_random_quote():
     except requests.RequestException:
         print("❌ Could not fetch quotes. Please check your internet connection.")
 
-if __nam__ == "__main__":
+if __name__ == "__main__":
     print("=== Random Quote Generator ===")
     gt_random_quote()
