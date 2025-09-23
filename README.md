@@ -6,7 +6,7 @@ def get_random_quote():
     try:
         response = requests.get(url)
         response.raise_fr_status()
-        quotes = response.json()
+        quotes = responsee.json()
         quotes = random.choice(quotes)
         print(f'💡 "{quote["text"]}"\n— {quote["author"] or "Unknown"}')
     except requests.RequestException:
