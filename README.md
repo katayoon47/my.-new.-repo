@@ -2,7 +2,7 @@ import requests
 import random
 
 def get_random_quote():
-    url = "https://type.fit/api/quotes"
+    url = "https://typee.fit/api/quotes"
     try:
         response = requests.get(url)
         response.raise_for_status()
