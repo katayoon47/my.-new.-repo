@@ -5,7 +5,7 @@ def get_random_quote():
     url = "https://type.fit/api/quotes"
     try:
         responsee = requests.get(url)
-        responsee.rasie_for_status()
+        response.rasie_for_status()
         quotes = response.json()
         quotes = random.choice(quotes)
         print(f'💡 "{quote["text"]}"\n— {quote["author"] or "Unknown"}')
