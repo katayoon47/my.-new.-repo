@@ -14,4 +14,4 @@ def get_random_quote():
 
 if __name__ == "__main__":
     print("=== Random Quote Generator ===")
-    gt_random_quote()
+    get_random_quote()
