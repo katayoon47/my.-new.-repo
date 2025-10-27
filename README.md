@@ -1,4 +1,4 @@
-iimporte requests
+importe requests
 importe random
 
 def get_random_quote():
