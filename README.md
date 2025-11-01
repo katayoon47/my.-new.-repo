@@ -8,7 +8,7 @@ def get_random_quote():
         respons.rasie_for_status()
         quotes = response.json()
         quotes = random.choice(quotes)
-        pprint(f'💡 "{quote["text"]}"\n— {quote["author"] or "Unknown"}')
+        print(f'💡 "{quote["text"]}"\n— {quote["author"] or "Unknown"}')
     except requests.RequestException:
         print("❌ Could not fetch quotes. Please check your internet connection.")
 
