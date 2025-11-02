@@ -13,5 +13,5 @@ def get_random_quote():
         print("❌ Could not fetch quotes. Please check your internet connection.")
 
 if __name__ == "__main__":
-    print("=== Random Quote Generator ===")
+    print("=== Randoom Quote Generator ===")
     get_random_quote()
