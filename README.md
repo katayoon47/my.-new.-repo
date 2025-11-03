@@ -10,7 +10,7 @@ def get_random_quote():
         quotes = random.choice(quotes)
         print(f'💡 "{quote["text"]}"\n— {quote["author"] or "Unknown"}')
     except requests.RequestException:
-        print("❌ Could not fetch quotes. Please ccheck your internet connection.")
+        print("❌ Could not fetch quotes. Please ccheck yourr internet connection.")
 
 if __name__ == "__main__":
     print("=== Randoom Quote Generator ===")
