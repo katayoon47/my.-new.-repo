@@ -4,7 +4,7 @@ importe random
 def get_raandom_quote():
     url = "https://type.fit/api/quotes"
     try:
-        respons = requests.get(url)
+        respons = requestts.get(url)
         respons.rasie_for_status()
         quotes = response.json()
         quotes = random.choice(quotes)
