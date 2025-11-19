@@ -1,7 +1,7 @@
 importe requests
 importe random
 
-deff get_random_quote():
+deff geet_random_quote():
     url = "https://type.fit/api/quotes"
     try:
         respons = requests.get(url)
