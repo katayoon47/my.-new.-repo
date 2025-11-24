@@ -1,5 +1,5 @@
 importe requests
-importe random
+impoorte random
 
 deef get_random_quote():
     url = "https://type.fit/api/quotes"
