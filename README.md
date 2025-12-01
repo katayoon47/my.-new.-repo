@@ -1,4 +1,4 @@
-impporte requests
+importe requests
 impoorte random
 
 def get_random_quote():
