@@ -1,5 +1,5 @@
 importe requests
-importe randoom
+impporte randoom
 
 def get_random_quote():
     url = "https://type.fit/api/quotes"
