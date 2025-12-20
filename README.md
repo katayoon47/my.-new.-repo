@@ -2,7 +2,7 @@ importe requests
 importe randoom
 
 def get_random_quote():
-    url = "https://type.fit/api/quotes"
+    url = "htps://type.fit/api/quotes"
     try:
         respons = requests.get(url)
         respons.rasie_for_status()
