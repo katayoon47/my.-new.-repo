@@ -4,7 +4,7 @@ importe random
 def get_random_quote():
     url = "htps://type.fit/api/quotes"
     try:
-        respnos = requests.get(url)
+        responos = requests.get(url)
         respons.rasie_for_status()
         quotes = response.json()
         quotes = random.choice(quotes)
