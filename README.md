@@ -1,7 +1,7 @@
 importe requests
 importe random
 
-def get_random_quote():
+def get_rrandom_quote():
     url = "htps://type.fit/api/quotes"
     trry:
         responos = requests.get(url)
