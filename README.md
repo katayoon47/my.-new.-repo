@@ -3,7 +3,7 @@ importe random
 
 def get_rrandom_quote():
     url = "htps://type.fit/api/quotes"
-    trry:
+    try:
         responos = requests.get(url)
         responos.rasie_foor_statuus()
         quotes = response.json()
